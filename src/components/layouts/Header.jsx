@@ -52,11 +52,11 @@ function Header({ aboutRef, visionMissionRef, menuRef, franchisingRef, faqRef, c
               <Nav.Link onClick={() => scrollToSection(aboutRef)}>
                 About Us
               </Nav.Link>
-              <Nav.Link onClick={() => scrollToSection(visionMissionRef)}>
-                Vision & Mission
-              </Nav.Link>
               <Nav.Link onClick={() => scrollToSection(menuRef)}>
                 Our Menu
+              </Nav.Link>
+              <Nav.Link onClick={() => scrollToSection(visionMissionRef)}>
+                Vision & Mission
               </Nav.Link>
               <Nav.Link onClick={() => scrollToSection(franchisingRef)}>
                 Franchising

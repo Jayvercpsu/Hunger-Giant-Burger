@@ -8,9 +8,9 @@ export const aboutSectionContent = {
 
 export const heroSectionContent = {
   heading1: "Hunger Giant Burger",
-  heading2: "Juicy & Delicious",
+  heading2: "Buy 1 Take 1",
   description:
-    "Sink your teeth into the Hunger Giant Burger! Packed with premium beef, fresh veggies, melted cheese, and our signature sauce on a soft bun. Every bite is a flavor explosion you won’t forget.\n\nPerfect for burger lovers craving bold flavors and a satisfying meal. Served fresh and ready to devour, it’s the ultimate comfort food experience!",
+    "Sink your teeth into the Hunger Giant Burger! Packed with premium beef, fresh veggies, signature patties, freshly baked burger buns and our signature sauce on a soft bun.\n\nPerfect for burger lovers craving bold flavors and a satisfying meal. Served fresh and ready to devour, it’s the ultimate comfort food experience!",
   // text1: "Only",
   // text2: "৳450",
   image: "/images/1.jpg",
@@ -39,8 +39,7 @@ export const promotionSectionContent = {
   listItems: [
     "🍔 Made with premium, fresh ingredients",
     "🔥 Grilled to perfection for maximum flavor",
-    "🧀 Loaded with delicious, melty cheese",
-    "🥓 Topped with crispy bacon and fresh veggies",
+    "🧀 Loaded with delicious, melty cheese", 
     "🚀 Available for quick delivery, straight to your door",
   ],
   image: "/images/13.jpg",

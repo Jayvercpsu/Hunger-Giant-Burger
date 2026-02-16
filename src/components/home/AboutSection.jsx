@@ -16,8 +16,11 @@ const AboutSection = forwardRef((props, ref) => {
     "/images/14.jpg",
     "/images/15.jpg",
     "/images/16.jpg",
-    "/images/17.jpg",
+    "/images/17.jpg", 
     "/images/18.jpg",
+    "/images/25.jpg",
+    "/images/26.jpg",
+    "/images/27.jpg",
   ];
 
   return (

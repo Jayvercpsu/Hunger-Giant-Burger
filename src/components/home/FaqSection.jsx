@@ -3,6 +3,14 @@ import { Container, Row, Col, Accordion } from "react-bootstrap";
 
 const faqData = [
   {
+    question: "Location?",
+    answer: "We are conveniently located at Gatingga Building, H. Mendoza Street, Barangay Manggahan, Puerto Princesa City.",
+  },
+  {
+    question: "Best value deals?",
+    answer: "Enjoy our affordable rice meal combos, each served with a complimentary 16oz juice.",
+  },
+  {
     question: "What makes your burgers special?",
     answer: "We use fresh ingredients, homemade sauces, and cook to order for the best flavor. Every burger is prepared with care to ensure maximum taste and quality."
   },
@@ -24,15 +32,11 @@ const faqData = [
   },
   {
     question: "Do you have rice meals besides burgers?",
-    answer: "Yes! We offer a variety of rice meals including silog meals, chicken meals, and more. Check our menu for the complete selection."
+    answer: "Yes! We offer a variety of rice meals including chicken meals, and more. Check our menu for the complete selection."
   },
   {
     question: "Do you have combo meals or promos?",
     answer: "Absolutely! We regularly offer exciting combo meals and value promos. Follow our social media pages for the latest deals and limited-time offers."
-  },
-  {
-    question: "Is dine-in available?",
-    answer: "Yes, we welcome dine-in customers! Enjoy your meal in our comfortable and clean restaurant space."
   },
   {
     question: "Can I order for pickup?",
@@ -41,18 +45,14 @@ const faqData = [
   {
     question: "Do you cater for events or parties?",
     answer: "Yes, we offer catering services for events, parties, and gatherings. Contact us in advance to discuss your needs and we'll create a customized package for you."
-  },
-  {
-    question: "Are there vegetarian options available?",
-    answer: "Yes, we have vegetarian options including veggie burgers and meat-free rice meals. Just ask our staff for recommendations."
-  },
+  }, 
   {
     question: "How can I become a franchisee?",
     answer: "We're always looking for passionate partners! Check out our Franchising section for details on requirements and the application process."
   },
   {
-    question: "Do you accept credit cards and e-wallets?",
-    answer: "Yes, we accept cash, credit cards, debit cards, and all major e-wallets like GCash, PayMaya, and more for your convenience."
+    question: "Do you accept e-wallets?",
+    answer: "Yes, we accept cash, and all major e-wallets like GCash, PayMaya, and more for your convenience."
   },
   {
     question: "How can I give feedback or file a complaint?",
