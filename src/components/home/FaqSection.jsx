@@ -16,7 +16,7 @@ const faqData = [
   },
   {
     question: "Do you offer delivery?",
-    answer: "Yes! We guarantee delivery within 30 minutes for orders within our service area. We partner with major delivery platforms and also offer our own delivery service."
+    answer: "We offer delivery through Grab, Happy App, and Backride Pinas for your convenience.",
   },
   {
     question: "Can I customize my burger?",
