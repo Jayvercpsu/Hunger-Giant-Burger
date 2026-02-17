@@ -8,7 +8,7 @@ const AboutSection = forwardRef((props, ref) => {
   const { heading, description, path, buttonText } = aboutSectionContent;
 
   const images = [
-    "/images/8.jpg",
+    "/images/8.png",
     "/images/9.jpg",
     "/images/10.jpg",
     "/images/11.jpg", 
@@ -30,7 +30,7 @@ const AboutSection = forwardRef((props, ref) => {
           <Row>
             <Col lg={{ span: 8, offset: 2 }} className="text-center">
               <h2>{heading}</h2>
-              <p>{description}</p>
+              <p style={{ color: "black" }}>{description}</p>
               {/* <Link to={path} className="btn order_now btn_red">
                 {buttonText}
               </Link> */}
@@ -47,9 +47,7 @@ const AboutSection = forwardRef((props, ref) => {
                 <div className="about_box text-center">
                   <div className="about_icon mb-3">
                     <img src={cardData.image} alt="icon" className="img-fluid" />
-                  </div>
-                  <h4>{cardData.title}</h4>
-                  <p>{cardData.description}</p>
+                  </div> 
                 </div>
               </Col>
             ))}

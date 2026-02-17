@@ -1,7 +1,7 @@
 export const aboutSectionContent = {
   heading: "The burger tastes better when you eat it with your family",
   description:
-    "At Hunger Giant Burger, we’re all about bold flavors and high-quality ingredients. Every bite is crafted with care, from our perfectly seasoned patties to our fresh, locally sourced toppings. Whether you're craving something classic or looking for a new favorite, we promise a burger experience that’s nothing short of delicious.",
+    "At Hunger Giant Burger, we’re all about quality ingredients. Every bite is crafted with care, from our perfectly seasoned patties to our fresh, locally sourced toppings. Whether you're craving something classic or looking for a new favorite, we promise a burger experience that’s nothing short of delicious.",
   buttonText: "Explore Full Menu",
   path: "/",
 };
@@ -10,7 +10,7 @@ export const heroSectionContent = {
   heading1: "Hunger Giant Burger",
   heading2: "Buy 1 Take 1",
   description:
-    "Sink your teeth into the Hunger Giant Burger! Packed with premium beef, fresh veggies, signature patties, freshly baked burger buns and our signature sauce on a soft bun.\n\nPerfect for burger lovers craving bold flavors and a satisfying meal. Served fresh and ready to devour, it’s the ultimate comfort food experience!",
+    "Sink your teeth into the Hunger Giant Burger! Packed with premium beef, fresh veggies, signature patties, freshly baked burger buns and our signature sauce on a soft bun.\n\nPerfect for burger lovers and a satisfying meal. Served fresh and ready to devour, it’s the ultimate comfort food experience!",
   // text1: "Only",
   // text2: "৳450",
   image: "/images/1.jpg",
@@ -21,7 +21,7 @@ export const heroSectionContent = {
 export const menuSectionContent = {
   heading: "Our Best Selling Burgers",
   description:
-    "Discover our crowd-favorite burgers made with juicy patties, fresh ingredients, and signature sauces. Every bite is packed with flavor and crafted to satisfy your cravings at an affordable price.",
+    "Discover burgers made with juicy patties, fresh ingredients, and signature sauces. Every bite is packed with flavor and crafted to satisfy your cravings at an affordable price.",
   cardHeading1: "Buy 1 Take 1",
   cardHeading2: "Egg Burgers",
   cardHeading3: "Egg Burgers",
@@ -38,8 +38,7 @@ export const promotionSectionContent = {
   ],
   listItems: [
     "🍔 Made with premium, fresh ingredients",
-    "🔥 Grilled to perfection for maximum flavor",
-    "🧀 Loaded with delicious, melty cheese", 
+    "🔥 Grilled to perfection for maximum flavor", 
     "🚀 Available for quick delivery, straight to your door",
   ],
   image: "/images/13.jpg",

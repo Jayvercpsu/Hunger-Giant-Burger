@@ -32,22 +32,22 @@ const MenuSection = forwardRef((props, ref) => {
         <Row className="pt-5 g-4">
           <Col md={4}>
             <div className="ads_box ads_img text-center">
-              <h4 className="mb-2">Franchise Burgers Menu 1</h4>
-              <p>Check out our delicious burger selections from our franchise menu.</p>
+              <h4 className="mb-2">Menu 1</h4>
+              {/* <p>Check out our delicious burger selections from our franchise menu.</p> */}
               <img src="/images/franchise1.jpg" alt="Franchise 1" />
             </div>
           </Col>
           <Col md={4}>
             <div className="ads_box ads_img text-center">
-              <h4 className="mb-2">Franchise Burgers Menu 2</h4>
-              <p>Another tasty option from our franchise to satisfy your cravings.</p>
+              <h4 className="mb-2">Menu 2</h4>
+              <p>Another tasty option.</p>
               <img src="/images/franchise2.jpg" alt="Franchise 2" />
             </div>
           </Col>
           <Col md={4}>
             <div className="ads_box ads_img text-center">
-              <h4 className="mb-2">Hunger Indoor Cart Menu 3</h4>
-              <p>Visit our Hunger Indoor Cart for a cozy dining experience and amazing burgers.</p>
+              <h4 className="mb-2">Hunger Indoor Cart FRANCHISE</h4>
+              <p>Visit our Hunger Indoor Cart for a cozy experience and affordable burgers.</p>
               <img src="/images/hunger-indoor-cart.jpg" alt="Hunger Indoor Cart" />
             </div>
           </Col>
