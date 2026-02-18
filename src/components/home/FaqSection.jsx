@@ -51,13 +51,57 @@ const faqData = [
     answer: "We're always looking for passionate partners! Check out our Franchising section for details on requirements and the application process."
   },
   {
+    question: "How much is the franchise fee?",
+    answer: "",
+  },
+  {
     question: "Do you accept e-wallets?",
     answer: "Yes, we accept cash, and all major e-wallets like GCash, PayMaya, and more for your convenience."
   },
   {
     question: "How can I give feedback or file a complaint?",
     answer: "We value your feedback! You can reach us through our Contact section, call our hotline, or message us on social media. We're committed to addressing all concerns promptly."
-  }
+  },
+  {
+  question: "What are the requirements to become a Hunger Giant Burger franchisee?",
+  answer:
+    "We look for passionate entrepreneurs with business experience and a commitment to our brand values.",
+  },
+  {
+    question: "How much is the initial investment for a Hunger Giant Burger franchise?",
+    answer:
+      "The initial investment starts at 180,000 to 250,000 which includes initial inventory for 1 week, equipment, and other setup costs for a 24-hour stall.",
+  },
+  {
+    question: "What kind of support does Hunger Giant Burger provide to franchisees?",
+    answer:
+      "We offer comprehensive training, marketing support, and ongoing operational guidance.",
+  },
+  {
+    question: "What is the typical size of a Hunger Giant Burger branch?",
+    answer:
+      "Our branches typically range from 4 to 8 square meters.",
+  },
+  {
+    question: "Do I need to be involved in day-to-day operations?",
+    answer:
+      "Yes, we encourage hands-on ownership and management together with your staff.",
+  },
+  {
+    question: "How long does it take to break even on the investment?",
+    answer:
+      "Typically, franchisees break even within 3 to 6 months.",
+  },
+  {
+    question: "Are there any financing options available for franchisees?",
+    answer:
+      "We have partnerships with financial institutions to help with financing.",
+  },
+  {
+    question: "How long does it take to operate the stall after signing up for the franchise?",
+    answer:
+      "After full payment of the franchise fee, you only need to wait around 3 weeks to start operating.",
+  },
 ];
 
 const FaqSection = forwardRef((props, ref) => {

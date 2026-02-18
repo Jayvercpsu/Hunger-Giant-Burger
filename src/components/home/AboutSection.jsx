@@ -8,7 +8,7 @@ const AboutSection = forwardRef((props, ref) => {
   const { heading, description, path, buttonText } = aboutSectionContent;
 
   const images = [
-    "/images/8.png",
+    "/images/8.jpg",
     "/images/9.jpg",
     "/images/10.jpg",
     "/images/11.jpg", 
@@ -18,9 +18,9 @@ const AboutSection = forwardRef((props, ref) => {
     "/images/16.jpg",
     "/images/17.jpg", 
     "/images/18.jpg",
-    "/images/25.jpg",
     "/images/26.jpg",
     "/images/27.jpg",
+    "/images/25.jpg",
   ];
 
   return (
@@ -57,7 +57,7 @@ const AboutSection = forwardRef((props, ref) => {
             {images.map((imgSrc, index) => (
               <Col md={4} key={index}>
                 <div className="about_image_box">
-                  <img src={imgSrc} alt={`about-${index}`} className="img-fluid rounded" />
+                  <img src={imgSrc} alt={`about-${index}`} className="img-fluid rounded h-100" />
                 </div>
               </Col>
             ))}
